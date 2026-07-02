@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GrandVista Hotel</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./index.css">
+</head>
+<body>
+<input type="checkbox" id="booking">
+
+<div class="booking-overlay">
+
+<div class="booking-form">
+
+<label for="booking" class="close">✖</label>
+
+<h2>Book Your Stay</h2>
+
+<input type="text" placeholder="Full Name">
+
+<input type="email" placeholder="Email Address">
+
+<input type="tel" placeholder="Phone Number">
+
+
+<div class="date-row">
+
+<input type="date">
+
+<input type="date">
+
+</div>
+
+
+<select>
+<option>2 Guests</option>
+<option>3 Guests</option>
+<option>4 Guests</option>
+</select>
+
+
+<button>
+Confirm Booking
+</button>
+
+
+</div>
+
+</div>
+ 
+<!-- NAVBAR -->
+<nav>
+  <div class="logo">Grand<span>Vista</span> Hotel</div>
+
+  <ul class="nav-links">
+    <li><a href="#homes">Home</a></li>
+    <li><a href="#rooms">Rooms</a></li>
+    <li><a href="#facilities">Facilities</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <label for="booking" class="btn-book">
+   Book Now
+  </label>
+</nav>
+ 
+<!-- HERO -->
+<section id="homes" class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1>Experience Luxury<br>Like Never Before</h1>
+    <p>Stay in the heart of the city with breathtaking views and 5-star comfort.</p>
+    <a href="#rooms" class="btn-primary">Check Availability</a>
+  </div>
+  <div class="search-bar">
+    <div class="search-field">
+      <label>Check-in Date</label>
+      <input type="date" value="YYYY-MM-DD">
+    </div>
+    <div class="search-divider"></div>
+    <div class="search-field">
+      <label>Check-out Date</label>
+      <input type="date" value="YYYY-MM-DD">
+    </div>
+    <div class="search-divider"></div>
+    <div class="search-field">
+      <label>Guests</label>
+      <select>
+        <option>2 Adults</option>
+        <option>1 Adult</option>
+        <option>3 Adults</option>
+        <option>4 Adults</option>
+      </select>
+    </div>
+    <a href="#rooms" class="btn-find">Find Rooms</a>
+  </div>
+</section>
+ 
+<!-- POPULAR ROOMS -->
+<section class="popular-rooms-section">
+  <div class="rooms-container">
+    
+    <div class="room-image-container">
+      <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=800&q=80" alt="Deluxe King Room" class="room-img">
+    </div>
+
+    <div class="room-content-container">
+      <!-- Section Header -->
+      <div class="section-header">
+        <h2>Our Popular Rooms</h2>
+        <p class="subtitle">Handcrafted rooms for your perfect stay.</p>
+      </div>
+
+      <div class="room-details">
+        <h3>Deluxe King Room</h3>
+        <p class="room-specs">Spacious King Bed, City View</p>
+        <p class="room-price">Free Wi-Fi, $250/Night</p>
+        <button class="book-now-btn">Book Now</button>
+      </div>
+
+      <div class="slider-controls">
+        <button class="arrow-btn">&larr;</button>
+        <button class="arrow-btn">&rarr;</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+ 
+<!-- FACILITIES -->
+<section class="facilities">
+    <div class="section-title">
+        <h2>Facilities & Amenities</h2>
+        <p>Find Your Best Stay Experience</p>
+    </div>
+
+    <div class="facility-container">
+
+        <div class="facility-card">
+            <img src="./fitness.png" alt="">
+            <h4>Fitness Center</h4>
+        </div>
+
+        <div class="facility-card">
+            <img src="./Swimming.png" alt="">
+            <h4>Swimming Pool</h4>
+        </div>
+
+        <div class="facility-card">
+            <img src="./spa & wellness.png" alt="">
+            <h4>Spa & Wellness</h4>
+        </div>
+
+        <div class="facility-card">
+            <img src="./restaturant.png" alt="">
+            <h4>Restaurant & Bar</h4>
+        </div>
+
+    </div>
+
+    <button class="see-more">See More</button>
+</section>
+ 
+<!-- GALLERY -->
+<input type="checkbox" id="rotate-badge">
+
+<!-- GALLERY -->
+<section id="gallery" class="explore-spaces-section">
+
+  <div class="explore-header">
+    <h2>Explore Our Spaces</h2>
+  </div>
+
+  <div class="explore-collage">
+
+    <!-- CENTER BADGE -->
+    <input type="checkbox" id="rotate-badge">
+
+<div class="explore-collage">
+
+    <label for="rotate-badge" class="center-badge">
+        <div class="badge-inner">
+            GrandVista Hotel
+        </div>
+    </label>
+</div>
+
+    <!-- ROW 1 -->
+    <div class="collage-row">
+      <div class="grid-item large-img">
+        <img src="./5cafcb51b7e38d1a3a5e84b824b6b9d522cd0912.png">
+      </div>
+    </div>
+
+    <!-- ROW 2 -->
+    <div class="collage-row">
+      <div class="grid-item large-img">
+        <img src="./4th img.png">
+      </div>
+    </div>
+
+    <!-- ROW 3 -->
+    <div class="collage-row row-bottom">
+      <div class="grid-item thumb-img"><img src="./5th.png"></div>
+      <div class="grid-item thumb-img"><img src="./6th.png"></div>
+      <div class="grid-item thumb-img"><img src="./7th.png"></div>
+      <div class="grid-item thumb-img"><img src="./8th.png"></div>
+      <div class="grid-item thumb-img"><img src="./9th.png"></div>
+    </div>
+
+  </div>
+</section>
+ 
+<!-- TESTIMONIALS -->
+<section class="testimonials-section">
+  <h2 class="section-title">What Our Guests Say</h2>
+  
+  <div class="testimonials-container">
+    <!-- Card 1 -->
+    <div class="testimonial-card">
+      <div class="quote-icon">
+        <svg viewBox="0 0 24 24"><path fill="currentColor" d="M13 14.725c0-5.141 3.301-9.725 11-9.725v4.275c-3.692 0-5 2.145-5 4.312h5v6.413h-11v-5.275zm-13 0c0-5.141 3.301-9.725 11-9.725v4.275c-3.692 0-5 2.145-5 4.312h5v6.413h-11v-5.275z"/></svg>
+      </div>
+      <h3 class="guest-name">Emily R</h3>
+      <div class="stars">
+        <span class="star filled">★</span>
+        <span class="star filled">★</span>
+        <span class="star filled">★</span>
+        <span class="star filled">★</span>
+        <span class="star empty">☆</span>
+      </div>
+      <p class="review-text">An unforgettable experience! The staff was attentive, and the rooms were stunning.</p>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="testimonial-card">
+      <div class="quote-icon">
+        <svg viewBox="0 0 24 24"><path fill="currentColor" d="M13 14.725c0-5.141 3.301-9.725 11-9.725v4.275c-3.692 0-5 2.145-5 4.312h5v6.413h-11v-5.275zm-13 0c0-5.141 3.301-9.725 11-9.725v4.275c-3.692 0-5 2.145-5 4.312h5v6.413h-11v-5.275z"/></svg>
+      </div>
+      <h3 class="guest-name">James L</h3>
+      <div class="stars">
+        <span class="star filled">★</span>
+        <span class="star filled">★</span>
+        <span class="star filled">★</span>
+        <span class="star filled">★</span>
+        <span class="star empty">☆</span>
+      </div>
+      <p class="review-text">Perfect location and luxury amenities. Highly recommend GrandVista Hotel!</p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="testimonial-card">
+      <div class="quote-icon">
+        <svg viewBox="0 0 24 24"><path fill="currentColor" d="M13 14.725c0-5.141 3.301-9.725 11-9.725v4.275c-3.692 0-5 2.145-5 4.312h5v6.413h-11v-5.275zm-13 0c0-5.141 3.301-9.725 11-9.725v4.275c-3.692 0-5 2.145-5 4.312h5v6.413h-11v-5.275z"/></svg>
+      </div>
+      <h3 class="guest-name">Priya S</h3>
+      <div class="stars">
+        <span class="star filled">★</span>
+        <span class="star filled">★</span>
+        <span class="star filled">★</span>
+        <span class="star filled">★</span>
+        <span class="star empty">☆</span>
+      </div>
+      <p class="review-text">The stay was absolutely wonderful! The staff were friendly, and the room had the best view ever.</p>
+    </div>
+  </div>
+</section>
+    
+ 
+<!-- CTA -->
+<div class="cta-section">
+  <div class="cta-text">
+    <h2>Ready to Book Your Stay?</h2>
+    <p>Reserve your room today and experience the luxury you deserve.</p>
+  </div>
+  <a href="#booking" class="btn-cta">Book Your Stay</a>
+</div>
+ 
+<!-- FOOTER -->
+<footer id="contact">
+  <div class="footer-grid">
+    <div>
+      <div class="footer-logo">Grand<span>Vista</span> Hotel</div>
+      <p class="footer-desc">Experience comfort and elegance — your perfect stay awaits at GrandVista.</p>
+      <div class="social-links">
+        <a href="#" class="social-btn">f</a>
+        <a href="#" class="social-btn">in</a>
+        <a href="#" class="social-btn">tw</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul class="footer-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#rooms">Rooms &amp; Suites</a></li>
+        <li><a href="#facilities">Facilities</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Support</h4>
+      <ul class="footer-links">
+        <li><a href="#">Rooms &amp; Safety</a></li>
+        <li><a href="#">Cancellation Policy</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Booking</a></li>
+        <li><a href="#">Terms &amp; Conditions</a></li>
+      </ul>
+    </div>
+    <div class="footer-col footer-contact">
+      <h4>Contact Us</h4>
+      <p><span>📍</span>45 Beachside Avenue, Goa, India</p>
+      <p><span>📞</span>9876543210</p>
+      <p><span>✉️</span>support@hotelease.com</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 GrandVista Hotel. All rights reserved.|Designed by Rupa kumar P G</p>
+</footer>
+
+
+</body>
+</html>
+
